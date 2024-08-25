@@ -1,3 +1,7 @@
+/*a function named filterEvenNumbers that takes an array of numbers as input and returns a new array containing
+only the even numbers.*/
+
+
 const readline = require('readline');
 
 function filterEvenNumbers(arr) {
@@ -18,4 +22,4 @@ rl.question('Please enter a list of numbers separated by commas (e.g., 1,2,3,4,5
     
     rl.close();
 });
-//node test3.js to run
+//node test3.js - to run
